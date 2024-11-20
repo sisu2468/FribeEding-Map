@@ -2,8 +2,8 @@ import close_btn from '../../assets/images/close_btn.png';
 import Arrow_4 from '../../assets/images/Arrow_4.png';
 import primary_road_icn from '../../assets/images/primary_road_icn.png'
 import exclamation_icn from '../../assets/images/!.png'
-import { Trash2, Plus, Minus, Trash, AlertTriangle, ChevronLeft } from "lucide-react"
-import React, { useState } from 'react';
+import { Trash2, Plus, Minus, ChevronLeft } from "lucide-react"
+import { useState } from 'react';
 
 function LeftSideBar() {
     const [isOneWay, setIsOneWay] = useState(true);
